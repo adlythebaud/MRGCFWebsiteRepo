@@ -1,0 +1,261 @@
+
+
+html, div, p, body, h1, h2, h3, h4, ul, li, section, i, img {
+	margin: 0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+.flexDisplay {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	width: 100%;
+	margin: 0;
+	padding: 0;	
+}
+
+
+/*******************************************************
+	Navigation (Menu Bar)
+********************************************************/
+
+.nav {
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	/*display: none;*/
+}
+.nav ul {
+	background-color: white;
+	display: inline-flex;
+	flex-wrap: nowrap; /*This ensures that when the viewport changes, the elements won't line-wrap!*/
+	flex-direction: row; /*Makes it in a row. another possible value is column, which makes it as a column. Applied to lists.*/
+	/*justify-content: center;*/
+	width: 100%;
+	padding: 0;
+	justify-content: space-around;
+	align-items: stretch;
+	margin: 0;
+	
+	
+}
+
+.nav ul li {
+	list-style-type: none;
+	margin: 0.33%;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	font-size: 100%;
+	margin: 0;
+	color: #2956B2;
+}
+
+.nav li a:hover {
+	opacity: 0.7;
+
+}
+
+/*******************************************************
+	Doctor Thebaud Main Homepage Image
+********************************************************/
+
+.imgSlideShow {
+	/*position: relative;*/
+	background-image: url("images/IMG_4408.jpg");
+	/*Background image takes up the full width.*/ 
+	background-size: 100%; 
+	background-repeat: no-repeat;
+	height: 420px;
+	opacity: .9;
+}
+
+.imgSlideShow div {
+	position: relative;
+	top: 10%;
+	width: 100%;
+	
+}
+
+.heroTitle {
+	color: #2956B2;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	text-justify: kashinda;
+	word-spacing: 15px;
+}
+
+
+/*******************************************************
+	All Clinical Trials.
+********************************************************/
+html {
+	/*overflow-x: hidden;*/
+}
+
+.columnFlexDisplay {
+
+	display: inline-flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center; /*Whether items are centered or not.*/
+	width: 100%;
+	margin: 0 0 20px 0;
+	padding: 0;
+	
+}
+
+#slogan {
+	color: #2956B2;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 5em;
+	text-align: center;
+	margin: 15px 0px;
+	
+}
+
+#enrollingNowIn {
+	color: white;
+	background-color: #2956B2;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 20px 0px;
+	margin-bottom: 50px;
+	width: 100%;
+	justify-content: center;
+}
+
+.rowFlexDisplay {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	width: 100%;
+	padding: 0;
+	margin-top: 75px;
+
+}
+
+#currentClinTrials ul, a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+#currentClinTrials li {
+	list-style-type: none;
+	margin: 5px;
+	width: 23%;
+	text-align: center;
+	
+}
+
+#currentClinTrials h4{
+	color: #2956B2;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.75em;
+}
+
+#currentClinTrials li:hover {
+	opacity: .7;
+}
+
+/*******************************************************
+	volunteerAndSponsor
+********************************************************/
+
+#volunteerAndSponsor div {
+	
+	width: 40%;
+	margin: 0px 10px;
+}
+
+#volunteerAndSponsor h3 {
+	text-align: center;
+	
+}
+
+#volunteerNow, #sponsorNow {
+	border: .5px solid #2956B2;
+	margin: 10px 0px;
+}
+
+#volunteerAndSponsor button {
+	background-color: #fc9723;
+	border: none;
+}
+
+/*******************************************************
+	Input Contact Info Section
+********************************************************/
+
+#inputContactInfo {
+	height: 300px;
+	width: 100%;
+	background-color: #dbdde0;
+	float: left;
+	margin: 0;
+}
+
+#inputContactInfo input, select {
+	display: block;
+	margin: 1%;
+	width: 45%;
+	height: 20px;
+	font-size: 13px;		
+}
+
+#inputContactInfo button {
+	background-color: #f4df42;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+#allContactInfo {
+	/*position: absolute;*/
+	width: 100%;
+	display: inline-block;
+	background-color: #2cc48a;
+	height: 250px;
+	margin: 0;
+}
+
+#googleMap {
+	width: 50%;
+	display: inline-block;
+	float: right;
+	height: 250px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
